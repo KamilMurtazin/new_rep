@@ -1,3 +1,5 @@
+package homework1;
+
 import java.util.Objects;
 
 public class Fraction extends Number{

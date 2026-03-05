@@ -1,3 +1,5 @@
+package homework1;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Сценарий 1:");
@@ -6,7 +8,7 @@ public class Main {
 
         System.out.println("Сценарий 2:");
         ItemStorage<Integer> script2 = new ItemStorage<>(200);
-        script2.compareWith(200);//выведит true, т.к. в ItemStorage я использовал equals
+        script2.compareWith(200);//выведит true, т.к. в homework1.ItemStorage я использовал equals
 
         System.out.println("Сценарий 3:");
         ItemStorage<Fraction> script3 = new ItemStorage<>(new Fraction(1,2));

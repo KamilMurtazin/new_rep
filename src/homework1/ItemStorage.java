@@ -1,3 +1,5 @@
+package homework1;
+
 public class ItemStorage<T> {
     private T value;
 
