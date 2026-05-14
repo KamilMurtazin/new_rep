@@ -1,4 +1,4 @@
-package AISD_homeworks.HW2_1;
+package AISD_homeworks.HW6;
 
 public class Task3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package AISD_homeworks.HW2_1;
+package AISD_homeworks.HW6;
 
 public class Task2 {
     public static int getLastDigit(int n){

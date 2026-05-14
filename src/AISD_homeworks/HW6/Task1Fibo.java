@@ -1,6 +1,4 @@
-package AISD_homeworks.HW2_1;
-
-import java.util.Set;
+package AISD_homeworks.HW6;
 
 public class Task1Fibo {
     public static void main(String[] args){
