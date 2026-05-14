@@ -1,12 +1,14 @@
-package IIP_homeworks.part2.homework2_2.t2_2_2;
+package IIP_homeworks.part2.homework2_2.YandexGo;
 
-public class User {
+public class Product {
     private int id;
     private String name;
+    private double price;
 
-    public User(int id, String name){
+    public Product(int id, String name, double price){
         this.id = id;
         this.name = name;
+        this.price = price;
     }
 
     public int getId() {
@@ -24,4 +26,13 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
+

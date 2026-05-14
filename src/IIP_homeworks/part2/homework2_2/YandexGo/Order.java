@@ -1,16 +1,19 @@
-package IIP_homeworks.part2.homework2_2.t2_2_2;
+package IIP_homeworks.part2.homework2_2.YandexGo;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class Order {
     private int id;
     private User user;
     private List<Product> products;
+    private LocalDateTime orderDate;
 
-    public Order(int id, User user, List<Product> products){
+    public Order(int id, User user, List<Product> products, LocalDateTime orderDate){
         this.id = id;
         this.user = user;
         this.products = products;
+        this.orderDate = orderDate;
     }
 
     public int getId() {
@@ -25,6 +28,10 @@ public class Order {
         return products;
     }
 
+    public LocalDateTime getOrderDate() {
+        return orderDate;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -35,5 +42,9 @@ public class Order {
 
     public void setProducts(List<Product> products) {
         this.products = products;
+    }
+
+    public void setOrderDate(LocalDateTime orderDate) {
+        this.orderDate = orderDate;
     }
 }
