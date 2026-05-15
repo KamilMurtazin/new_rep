@@ -1,27 +1,27 @@
 package AISD_homeworks.HW6;
 
 public class Task2 {
-    public static int getLastDigit(int n){
-        if (n == 0){
-            return 0;
-        }
-        if (n == 1){
-            return 1;
-        }
-
-        int prevPrev = 0;
-        int prev = 1;
-        int lastDigit = 0;
-
-        for (int i = 2; i <= n; i ++){
-            lastDigit = (prevPrev + prev) % 10;
-            prevPrev = prev;
-            prev = lastDigit;
-        }
-        return lastDigit;
+    public static void main(String[] args) {
+        int first = 10;
+        int second = 101;
+        System.out.println(first * first == second);
+        System.out.println(first == multiplyByShifts(second , second));
     }
+    public static long multiplyByShifts(long a, long b) {
+        long result = 0;
+        long x = Math.abs(a);
+        long y = Math.abs(b);
 
-    public static void main(String[] args){
-        System.out.println(getLastDigit(8));
+        while (x != 0) {
+            if ((x & 1) == 1) {
+                result += y;
+            }
+            x >>= 1;
+            y <<= 1;
+        }
+        if ((a < 0) ^ (b < 0)) {
+            result = -result;
+        }
+        return result;
     }
 }
