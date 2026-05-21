@@ -1,0 +1,15 @@
+alex_k|Java 21 новые фичи|45|12
+maria_d|Многопоточность это просто|78|23
+john_s|Spring Boot 3 обзор|34|8
+alex_k|Lombok советы|23|5
+maria_d|Stream API примеры|89|31
+peter_r|Микросервисы антипаттерны|56|14
+alex_k|JUnit 5 гайд|67|19
+maria_d|Maven vs Gradle|92|28
+john_s|Docker для Java|41|9
+peter_r|Kafka уроки|38|11
+alex_k|Hibernate ленивая загрузка|29|6
+maria_d|REST API лучшие практики|95|35
+john_s|Git для опытных|44|10
+peter_r|CI/CD пайплайны|52|13
+alex_k|Java памяти управление|61|17

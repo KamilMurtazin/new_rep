@@ -1,0 +1,15 @@
+maria_d|Record классы Java|72|24
+alex_k|Pattern Matching|58|16
+john_s|Virtual Threads|87|29
+peter_r|GraalVM обзор|33|7
+maria_d|Spring Security 6|91|32
+alex_k|WebFlux реактивщина|64|18
+maria_d|JPA связи|76|22
+john_s|Testing best practices|49|12
+peter_r|Logging frameworks|27|5
+alex_k|Java 8 vs 21|53|14
+maria_d|Code review tips|84|27
+john_s|Refactoring patterns|39|9
+peter_r|Team collaboration|31|6
+maria_d|Java roadmap 2025|88|30
+alex_k|Interview questions|71|20
